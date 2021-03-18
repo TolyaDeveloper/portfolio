@@ -1,0 +1,29 @@
+.btn {
+  position: relative;
+  padding: 14px 28px;
+  color: var(--clr-btn);
+  background-color: var(--accent);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  @include font('Rubik', 700);
+  z-index: 5;
+  overflow: hidden;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    height: 100%;
+    width: 0;
+    background-color: #f26c6c;
+    transition: var(--transition);
+    z-index: -1;
+  }
+  &:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+  }
+}

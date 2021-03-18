@@ -1,0 +1,7 @@
+.title {
+  font-size: var(--fz-header-primary);
+  @include font('Rubik', 700);
+  &--big {
+    font-size: 48px;
+  }
+}

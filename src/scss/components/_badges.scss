@@ -1,0 +1,19 @@
+.badge {
+  position: relative;
+  padding-left: 7px;
+  font-size: 18px;
+  @include font('Rubik', 700);
+  &::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    z-index: -1;
+  }
+  &--text::before {
+    top: -5px;
+    left: 0;
+  }
+}
