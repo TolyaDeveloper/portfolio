@@ -1,0 +1,32 @@
+.about {
+  padding-top: 120px;
+  &__inner {
+    display: grid;
+    grid-template-columns: 400px auto;
+    column-gap: 70px;
+  }
+  &__badge {
+    margin-top: 4px;
+  }
+  &__text {
+    margin-top: 25px;
+    line-height: 1.5;
+  }
+  &__skills-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 50px;
+    margin-top: 40px;
+  }
+  &__skills-item {
+    display: grid;
+    grid-template-columns: 50px auto;
+  }
+  &__skills-name {
+    @include font('Rubik', 700);
+    margin-bottom: 6px;
+  }
+  &__skills-text {
+    line-height: 1.5;
+  }
+}

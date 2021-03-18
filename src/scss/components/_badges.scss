@@ -1,5 +1,6 @@
 .badge {
   position: relative;
+  margin-bottom: 20px;
   padding-left: 7px;
   font-size: 18px;
   @include font('Rubik', 700);
@@ -15,5 +16,12 @@
   &--text::before {
     top: -5px;
     left: 0;
+  }
+  &--photo {
+    padding: 0;
+    margin: 0;
+  }
+  &__photo {
+    padding: 13px 0 0 13px;
   }
 }

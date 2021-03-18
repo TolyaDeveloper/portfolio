@@ -1,7 +1,17 @@
 .title {
+  position: relative;
+  padding-bottom: 20px;
   font-size: var(--fz-header-primary);
   @include font('Rubik', 700);
   &--big {
     font-size: 48px;
+  }
+  &--underline::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background-color: var(--accent);
   }
 }
