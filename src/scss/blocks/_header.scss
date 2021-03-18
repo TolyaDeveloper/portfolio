@@ -1,0 +1,6 @@
+.header {
+  position: relative;
+  background-image: url('../images/dist/content/bg-person.jpg');
+  @include cover-background;
+  min-height: 800px;
+}

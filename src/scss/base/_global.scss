@@ -9,6 +9,8 @@ body {
   color: var(--clr-text-primary);
   font-size: var(--fz-primary);
   line-height: var(--line-height);
+
+  @include font('Rubik', 400);
 }
 
 a {
@@ -33,4 +35,18 @@ h5,
 h6,
 p {
   margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#app {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
