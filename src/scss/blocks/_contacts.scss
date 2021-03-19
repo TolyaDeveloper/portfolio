@@ -1,0 +1,27 @@
+.footer {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  &__inner {
+    display: grid;
+    grid-template-columns: 400px auto;
+    column-gap: 70px;
+    padding: 0 50px;
+  }
+  &__text {
+    margin: 25px 0;
+    @include font('Rubik', 700);
+  }
+  &__privacy {
+    color: blue;
+  }
+}
+
+.socials {
+  display: flex;
+  &__item + &__item {
+    margin-left: 20px;
+  }
+  &__img {
+    height: 30px;
+  }
+}

@@ -13,7 +13,9 @@
   <div id="app">
     <header class="header">
       <button class="hamburger" type="button" aria-label="open sidenav menu">
-        <span class="hamburger__line"></span>
+        <span class="hamburger__line hamburger__line--side"></span>
+        <span class="hamburger__line hamburger__line--centered"></span>
+        <span class="hamburger__line hamburger__line--side"></span>
       </button>
       <div class="container">
         <div class="header__info">
@@ -26,6 +28,22 @@
         </div>
       </div>
     </header>
+    <aside class="aside-links">
+      <div class="aside-links__container">
+        <div class="aside-links__text">Socials</div>
+        <div class="aside-links__divider"></div>
+        <ul class="socials">
+          <li class="socials__item">
+            <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/github.svg"
+                alt="github"></a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/instagram.svg"
+                alt="instagram"></a>
+          </li>
+        </ul>
+      </div>
+    </aside>
     <main class="main">
       <section class="about">
         <div class="container">
@@ -79,18 +97,20 @@
       </section>
       <section class="experience">
         <div class="container">
-          <div class="badge">Experience</div>
-          <h2 class="title">My background</h2>
+          <div class="badge badge--centered">Experience</div>
+          <h2 class="title title--underline title--centered">My background</h2>
           <div class="experience__inner">
             <div class="experience__item">
-              <h3 class="">Education</h3>
+              <h3 class="experience__title">Education</h3>
               <ul class="experience__map">
                 <li class="experience__map-item">
                   <div class="experience__map-item__inner">
-                    <div class="badge"></div>
+                    <div class="badge badge--photo">
+                      <img class="badge__photo" src="images/dist/icons/university.svg" alt="study">
+                    </div>
                     <div class="experience__map-info__inner">
-                      <div class="experience__map-info-header"></div>
-                      <div class="experience__map-info-reward"></div>
+                      <div class="experience__map-info-header">Lviv Polytechnic National University</div>
+                      <div class="experience__map-info-text">Bachelor degree | Lviv (2020 - 2024)</div>
                     </div>
                   </div>
                   <p class="experience__map-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -101,10 +121,49 @@
                 </li>
                 <li class="experience__map-item">
                   <div class="experience__map-item__inner">
-                    <div class="badge"></div>
+                    <div class="badge badge--photo">
+                      <img class="badge__photo" src="images/dist/icons/courses.svg" alt="udemy courses">
+                    </div>
                     <div class="experience__map-info__inner">
-                      <div class="experience__map-info-header"></div>
-                      <div class="experience__map-info-reward"></div>
+                      <div class="experience__map-info-header">Udemy</div>
+                      <div class="experience__map-info-text">Web development courses</div>
+                    </div>
+                  </div>
+                  <p class="experience__map-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit, sed do eiusmo. </p>
+                </li>
+              </ul>
+            </div>
+            <div class="experience__item">
+              <h3 class="experience__title">Education</h3>
+              <ul class="experience__map">
+                <li class="experience__map-item">
+                  <div class="experience__map-item__inner">
+                    <div class="badge badge--photo">
+                      <img class="badge__photo" src="images/dist/icons/university.svg" alt="study">
+                    </div>
+                    <div class="experience__map-info__inner">
+                      <div class="experience__map-info-header">Lviv Polytechnic National University</div>
+                      <div class="experience__map-info-text">Bachelor degree | Lviv (2020 - 2024)</div>
+                    </div>
+                  </div>
+                  <p class="experience__map-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                    adipiscing
+                    elit, sed do eiusmo. </p>
+                </li>
+                <li class="experience__map-item">
+                  <div class="experience__map-item__inner">
+                    <div class="badge badge--photo">
+                      <img class="badge__photo" src="images/dist/icons/courses.svg" alt="udemy courses">
+                    </div>
+                    <div class="experience__map-info__inner">
+                      <div class="experience__map-info-header">Udemy</div>
+                      <div class="experience__map-info-text">Web development courses</div>
                     </div>
                   </div>
                   <p class="experience__map-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -120,29 +179,93 @@
       </section>
       <section class="skills">
         <div class="container">
-          <div class="badge">Skills</div>
-          <h2 class="title">Stack of my technologies</h2>
+          <div class="badge badge--text badge--centered">Skills</div>
+          <h2 class="title title--underline title--centered">Stack of my technologies</h2>
           <div class="skills__inner">
             <div class="skills__item">
-              <img class="skills__img" src="" alt="">
+              <div class="skills__img-inner">
+                <img class="skills__img" src="images/dist/icons/html.svg" alt="html">
+              </div>
               <div class="skills__technology">HTML5</div>
-              <p class="skills__text">Именно он создает каркас вашего сайта или приложения, а пятая версия позволит мне
-                создавать более SEO-оптимизированную структуру вашего продукта</p>
+              <p class="skills__text">Hype Text Markup Language - it's like the skeleton of your website or application.
+                HTML5 version will help me to create more accessible and SEO-optimized product.
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img class="skills__img" src="images/dist/icons/css.svg" alt="css">
+              </div>
+              <div class="skills__technology">CSS3</div>
+              <p class="skills__text">Cascading Style Sheets - makes look your site modern and good-looking</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img class="skills__img" src="images/dist/icons/sass.svg" alt="sass">
+              </div>
+              <div class="skills__technology">Sass</div>
+              <p class="skills__text">CSS preprocessor that allows me to write css more quickly/efficiently. Personally
+                i use SCSS syntax</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img class="skills__img" src="images/dist/icons/bootstrap.svg" alt="bootstrap">
+              </div>
+              <div class="skills__technology">Bootstrap</div>
+              <p class="skills__text">It's a framework that is designed to create websites and web applications quickly
+                and mobile-first
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img class="skills__img" src="images/dist/icons/javascript.svg" alt="javascript">
+              </div>
+              <div class="skills__technology">Javascript</div>
+              <p class="skills__text">Programming language that allows me to create such great features as sliders,
+                sidenavs, tabs etc.</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img class="skills__img" src="images/dist/icons/jquery.svg" alt="jquery">
+              </div>
+              <div class="skills__technology">Jquery</div>
+              <p class="skills__text">The Jquery library will speed up development. I will not integrate it into the
+                project without the need, but the skill of working with it is present</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img class="skills__img" src="images/dist/icons/react.svg" alt="react">
+              </div>
+              <div class="skills__technology">React</div>
+              <p class="skills__text">This library allows me to create web applications. I can create the most
+                interactive product specifically for your goals</p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img class="skills__img" src="images/dist/icons/mongodb.svg" alt="mongodb">
+              </div>
+              <div class="skills__technology">Node.js</div>
+              <p class="skills__text">This platform allows me to create a backend for your product - "brains"</p>
             </div>
           </div>
         </div>
       </section>
       <section class="works">
         <div class="container">
-          <div class="badge">Portfolio</div>
-          <h2 class="title">My works</h2>
+          <div class="badge badge--text badge--centered">Portfolio</div>
+          <h2 class="title title--underline title--centered">My works</h2>
           <div class="works__inner">
-            <a href="#"><img src="" alt=""></a>
-            <a href="#"><img src="" alt=""></a>
-            <a href="#"><img src="" alt=""></a>
-            <a href="#"><img src="" alt=""></a>
-            <a href="#"><img src="" alt=""></a>
-            <a href="#"><img src="" alt=""></a>
+            <a class="works__link" href="#"><img class="works__img" src="images/dist/content/preview.jpg"
+                alt="todo"></a>
+            <a class="works__link" href="#"><img class="works__img" src="images/dist/content/preview.jpg"
+                alt="todo"></a>
+            <a class="works__link" href="#"><img class="works__img" src="images/dist/content/preview.jpg"
+                alt="todo"></a>
+            <a class="works__link works__link--vertical" href="#"><img class="works__img"
+                src="images/dist/content/preview.jpg" alt="todo"></a>
+            <a class="works__link" href="#"><img class="works__img" src="images/dist/content/preview.jpg"
+                alt="todo"></a>
+            <a class="works__link works__link--wider" href="#"><img class="works__img"
+                src="images/dist/content/preview.jpg" alt="todo"></a>
           </div>
         </div>
       </section>
@@ -150,38 +273,45 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__inner">
-          <img class="footer__img person-img" src="" alt="">
+          <img class="footer__img person-img" src="images/dist/content/person.jpg" alt="person">
           <div class="footer__contacts">
-            <div class="badge">Contacts</div>
-            <h2 class="title">Get in touch</h2>
+            <div class="badge badge--text">Contacts</div>
+            <h2 class="title title--underline">Get in touch</h2>
             <p class="footer__text">In any way convenient for you:</p>
             <ul class="socials">
-              <li class="socials__item"><a class="socials__link" href="#"></a></li>
-              <li class="socials__item"><a class="socials__link" href="#"></a></li>
-              <li class="socials__item"><a class="socials__link" href="#"></a></li>
+              <li class="socials__item">
+                <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/github.svg"
+                    alt="github"></a>
+              </li>
+              <li class="socials__item">
+                <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/instagram.svg"
+                    alt="instagram"></a>
+              </li>
             </ul>
             <p class="footer__text">Or leave your details and I will respond</p>
             <form>
               <div class="form__inputs-inner">
                 <label class="form__label">
-                  <input class="form__input" type="text" name="name">
+                  <input class="form__input" type="text" name="name" data-focus required>
                   <span class="form__legend">Name</span>
                 </label>
                 <label class="form__label">
-                  <input class="form__input" type="email" name="email">
+                  <input class="form__input" type="email" name="email" data-focus required>
                   <span class="form__legend">Email</span>
                 </label>
               </div>
-              <label class="form__label">
-                <textarea class="from__textarea" name="message"></textarea>
+              <div class="form__textarea-container">
+                <textarea class="form__textarea" name="message" data-focus></textarea>
                 <span class="form__legend">Message</span>
-              </label>
+              </div>
               <div class="form__submit">
-                <label>
+                <label class="form__label">
                   <input class="form__checkbox" type="checkbox">
-                  <span class="form__custom-checkbox">A agree with the privacy policy</span>
+                  <span class="form__custom-checkbox"></span>
+                  <span class="form__privacy">A agree with the <a class="footer__privacy" href="#">privacy
+                      policy</a></span>
                 </label>
-                <button class="form__submit" type="submit">send message</button>
+                <button class="btn" type="submit">send message</button>
               </div>
             </form>
           </div>

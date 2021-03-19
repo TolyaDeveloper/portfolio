@@ -1,10 +1,12 @@
 .title {
   position: relative;
-  padding-bottom: 20px;
   font-size: var(--fz-header-primary);
   @include font('Rubik', 700);
   &--big {
     font-size: 48px;
+  }
+  &--underline {
+    padding-bottom: 20px;
   }
   &--underline::before {
     content: '';
@@ -13,5 +15,12 @@
     width: 60px;
     height: 3px;
     background-color: var(--accent);
+  }
+  &--centered {
+    text-align: center;
+  }
+  &--centered::before {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

@@ -1,3 +1,63 @@
 .experience {
   padding-top: 120px;
+  &__inner {
+    display: grid;
+    grid-template-columns: 425px 425px;
+    justify-content: space-between;
+    margin: 60px 60px 0 60px;
+  }
+  &__item {
+    position: relative;
+  }
+  &__title {
+    position: absolute;
+    top: -8px;
+    padding-left: 40px;
+    font-size: 20px;
+    @include font('Rubik', 700);
+    &::before {
+      content: '';
+      position: absolute;
+      top: 4px;
+      left: -7px;
+      width: 15px;
+      height: 15px;
+      background-color: var(--accent);
+      border-radius: 50%;
+    }
+  }
+  &__map {
+    position: relative;
+    padding-left: 40px;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      background-color: var(--accent);
+    }
+  }
+  &__map-item {
+    padding-top: 50px;
+  }
+  &__map-item__inner {
+    position: relative;
+    display: grid;
+    grid-template-columns: 56px auto;
+    margin-bottom: 15px;
+    &::before {
+      content: '';
+      position: absolute;
+      left: -40px;
+      top: 17px;
+      width: 42px;
+      height: 1px;
+      background-color: var(--accent);
+    }
+  }
+  &__map-info-header {
+    @include font('Rubik', 700);
+    margin-bottom: 3px;
+  }
 }
