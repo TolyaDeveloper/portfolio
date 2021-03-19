@@ -4,6 +4,7 @@
   left: 50px;
   transform: rotate(-90deg) translateX(-50%);
   transform-origin: 0 0;
+  z-index: 20;
   &__container {
     display: flex;
     align-items: center;

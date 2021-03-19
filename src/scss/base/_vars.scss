@@ -2,6 +2,8 @@
   --accent: #f05454;
 
   --clr-btn: #fce6e6;
+  --clr-text-sidenav: #fce6e6;
+  --clr-times-sidenav: #fce6e6;
   --clr-text-primary: #220b0b;
   --clr-hamburger: #220b0b;
 
@@ -10,4 +12,5 @@
   --fz-header-primary: 36px;
 
   --transition: width 0.25s ease-in-out, transform 0.15s ease-in-out;
+  --transition-sidenav: transform 0.15s ease-in-out;
 }
