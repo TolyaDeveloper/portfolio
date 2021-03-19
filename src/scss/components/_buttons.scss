@@ -3,8 +3,6 @@
   padding: 14px 28px;
   color: var(--clr-btn);
   background-color: var(--accent);
-  border: none;
-  cursor: pointer;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   @include font('Rubik', 700);
   z-index: 5;
@@ -25,5 +23,9 @@
     width: 100%;
     left: 0;
     right: auto;
+  }
+  &--btn {
+    border: none;
+    cursor: pointer;
   }
 }

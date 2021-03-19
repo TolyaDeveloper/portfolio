@@ -27,7 +27,10 @@ window.addEventListener('keyup', (e) => {
 });
 
 sidenav.addEventListener('click', (e) => {
-  if (e.target.matches('.sidenav__overlay')) {
+  if (
+    e.target.matches('.sidenav__overlay') ||
+    e.target.matches('.menu__link')
+  ) {
     closeSidenav(sidenav);
   }
 });

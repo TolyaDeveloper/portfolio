@@ -27,6 +27,10 @@
     animation: title-gradient 8s linear infinite;
     user-select: none;
   }
+  &__links-container {
+    display: flex;
+    align-items: center;
+  }
   &__link {
     position: relative;
     margin-left: 40px;
