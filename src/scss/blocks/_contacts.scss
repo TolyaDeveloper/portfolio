@@ -14,6 +14,9 @@
   &__privacy {
     color: blue;
   }
+  &__badge {
+    margin-top: 4px;
+  }
 }
 
 .socials {
@@ -23,5 +26,8 @@
   }
   &__img {
     height: 30px;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }

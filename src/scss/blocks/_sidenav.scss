@@ -18,11 +18,10 @@
     width: 345px;
     padding: 100px 0 50px 0;
     background-color: var(--accent);
-    background-color: var(--accent);
-    transition: var(--transition-sidenav);
     overflow-y: auto;
     z-index: 100;
-    transform: translate(-100%);
+    transform: translate3d(-100%, 0, 0);
+    transition: var(--transition-sidenav);
   }
   .socials__img {
     height: 20px;
@@ -31,7 +30,7 @@
     display: block;
   }
   &.active &__inner {
-    transform: translate(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -56,7 +55,7 @@
   }
   &__link {
     padding-bottom: 20px;
-    transition: var(--transition);
+    transition: var(--transition-blocks);
     &:hover {
       transform: translateX(5px);
     }

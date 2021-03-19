@@ -11,6 +11,7 @@
   --fz-primary: 14px;
   --fz-header-primary: 36px;
 
-  --transition: width 0.25s ease-in-out, transform 0.15s ease-in-out;
-  --transition-sidenav: transform 0.15s ease-in-out;
+  --transition: width 0.25s ease-in-out;
+  --transition-sidenav: transform 0.25s ease-in-out;
+  --transition-blocks: transform 0.15s ease-in-out;
 }
