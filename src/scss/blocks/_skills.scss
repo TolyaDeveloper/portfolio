@@ -1,8 +1,8 @@
 .skills {
-  padding-top: 120px;
+  padding-top: var(--section-padding);
   &__inner {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 15px;
     margin-top: 60px;
   }

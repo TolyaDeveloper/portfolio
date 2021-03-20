@@ -1,4 +1,6 @@
-// import './modules/scrollbar';
+import 'focus-visible';
 import './modules/forms';
 import './modules/sidenav';
-import 'focus-visible';
+import './modules/scroll-top';
+import './modules/preloader';
+import './modules/anchors';

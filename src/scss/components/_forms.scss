@@ -43,7 +43,10 @@
     &:checked + span::before {
       opacity: 1;
     }
-    &:focus + span {
+    &:focus-visible + span {
+      box-shadow: 0 0 0 3px var(--accent);
+    }
+    &:-moz-focusring + span {
       box-shadow: 0 0 0 3px var(--accent);
     }
   }
@@ -72,6 +75,7 @@
   &__submit {
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
     align-items: center;
     margin-top: 30px;
   }

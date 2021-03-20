@@ -1,5 +1,5 @@
 .about {
-  padding-top: 120px;
+  padding-top: var(--section-padding);
   &__inner {
     display: grid;
     grid-template-columns: 400px auto;

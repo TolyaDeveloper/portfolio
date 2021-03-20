@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "focus-visible": "^5.2.0",
-    "normalize.css": "^8.0.1",
-    "smooth-scrollbar": "^8.6.0"
+    "normalize.css": "^8.0.1"
   }
 }
