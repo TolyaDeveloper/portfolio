@@ -1,391 +1,693 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Anatolii Harhash</title>
+    <link rel="stylesheet" href="css/bundle.min.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | Anatolii Harhash</title>
-  <link rel="stylesheet" href="css/bundle.min.css">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicons/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="favicons/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-  <link rel="manifest" href="favicons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+    <!-- Primary Meta Tags -->
+    <title>Anatolii Harhash | Portfolio</title>
+    <meta name="title" content="Anatolii Harhash | Portfolio" />
+    <meta
+      name="description"
+      content="My name is Anatolii Harhash and i'm a web developer from Lviv. I'm glad to see you on my portfolio website."
+    />
 
-  <!-- Primary Meta Tags -->
-  <title>Anatolii Harhash | Portfolio</title>
-  <meta name="title" content="Anatolii Harhash | Portfolio">
-  <meta name="description"
-    content="My name is Anatolii Harhash and i'm a web developer from Lviv. I'm glad to see you on my portfolio website.">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Anatolii Harhash | Portfolio" />
+    <meta
+      property="og:description"
+      content="My name is Anatolii Harhash and i'm a web developer from Lviv. I'm glad to see you on my portfolio website."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://metatags.io/">
-  <meta property="og:title" content="Anatolii Harhash | Portfolio">
-  <meta property="og:description"
-    content="My name is Anatolii Harhash and i'm a web developer from Lviv. I'm glad to see you on my portfolio website.">
-  <meta property="og:image"
-    content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Anatolii Harhash | Portfolio" />
+    <meta
+      property="twitter:description"
+      content="My name is Anatolii Harhash and i'm a web developer from Lviv. I'm glad to see you on my portfolio website."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+  </head>
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://metatags.io/">
-  <meta property="twitter:title" content="Anatolii Harhash | Portfolio">
-  <meta property="twitter:description"
-    content="My name is Anatolii Harhash and i'm a web developer from Lviv. I'm glad to see you on my portfolio website.">
-  <meta property="twitter:image"
-    content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-</head>
-
-<body>
-  <div class="preloader">
-    <div class="pacman">
-      <div class="food"></div>
-      <div class="food"></div>
-      <div class="food"></div>
-      <div class="pacman-eye"></div>
-    </div>
-  </div>
-  <header class="header">
-    <button class="hamburger" type="button" aria-label="open sidenav menu">
-      <span class="hamburger__line hamburger__line--side"></span>
-      <span class="hamburger__line hamburger__line--centered"></span>
-      <span class="hamburger__line hamburger__line--side"></span>
-    </button>
-    <div class="container">
-      <div class="header__info">
-        <p class="header__badge badge badge--text">My name is Anatolii Harhash</p>
-        <h1 class="header__title title title--big">I am a web developer from Lviv</h1>
-        <div class="header__links-container">
-          <a class="btn" href="#portfolio">Portfolio</a>
-          <a class="header__link" href="#about">About me</a>
-        </div>
+  <body>
+    <div class="preloader">
+      <div class="pacman">
+        <div class="food"></div>
+        <div class="food"></div>
+        <div class="food"></div>
+        <div class="pacman-eye"></div>
       </div>
     </div>
-  </header>
-  <aside class="aside-links">
-    <div class="aside-links__container">
-      <div class="aside-links__text">Socials</div>
-      <div class="aside-links__divider"></div>
-      <ul class="socials">
-        <li class="socials__item">
-          <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/github.svg"
-              alt="github"></a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/instagram.svg"
-              alt="instagram"></a>
-        </li>
-      </ul>
-    </div>
-  </aside>
-  <div class="sidenav">
-    <div class="sidenav__overlay"></div>
-    <div class="sidenav__inner">
-      <button class="close-sidenav" type="button" aria-label="close sidenav menu">&times;</button>
-      <nav class="menu">
-        <ul class="menu__inner">
-          <li class="menu__item"><a href="#about" class="menu__link">About me</a></li>
-          <li class="menu__item"><a href="#experience" class="menu__link">My experience</a></li>
-          <li class="menu__item"><a href="#skills" class="menu__link">My skills</a></li>
-          <li class="menu__item"><a href="#portfolio" class="menu__link">My works</a></li>
-          <li class="menu__item"><a href="#contacts" class="menu__link">Contacts</a></li>
-        </ul>
+    <header class="header">
+      <button class="hamburger" type="button" aria-label="open sidenav menu">
+        <span class="hamburger__line hamburger__line--side"></span>
+        <span class="hamburger__line hamburger__line--centered"></span>
+        <span class="hamburger__line hamburger__line--side"></span>
+      </button>
+      <div class="container">
+        <div class="header__info">
+          <p class="header__badge badge badge--text">
+            My name is Anatolii Harhash
+          </p>
+          <h1 class="header__title title title--big">
+            I am a web developer from Lviv
+          </h1>
+          <div class="header__links-container">
+            <a class="btn" href="#portfolio">Portfolio</a>
+            <a class="header__link" href="#about">About me</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <aside class="aside-links">
+      <div class="aside-links__container">
+        <div class="aside-links__text">Socials</div>
+        <div class="aside-links__divider"></div>
         <ul class="socials">
           <li class="socials__item">
-            <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/github.svg"
-                alt="github"></a>
+            <a
+              class="socials__link"
+              href="https://github.com/TolyaDeveloper"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><img
+                class="socials__img"
+                src="images/dist/icons/github.svg"
+                alt="github"
+            /></a>
           </li>
           <li class="socials__item">
-            <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/instagram.svg"
-                alt="instagram"></a>
+            <a
+              class="socials__link"
+              href="https://www.instagram.com/gargashanatolii"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><img
+                class="socials__img"
+                src="images/dist/icons/instagram.svg"
+                alt="instagram"
+            /></a>
           </li>
         </ul>
-      </nav>
-    </div>
-  </div>
-  <main class="main">
-    <section class="about" id="about">
-      <div class="container">
-        <div class="about__inner">
-          <img class="about__img person-img" src="images/dist/content/person.jpg" alt="person">
-          <div class="about__info">
-            <div class="about__badge badge badge--text">About me</div>
-            <h2 class="title title--underline">My name is Anatolii</h2>
-            <p class="about__text">Hi. I'm glad to see you on my portfolio website. I really like to come up with some
-              new ideas for new projects. Studying, actually, is a must form me. It always gives me a thrill to face
-              with some new technologies and immediately try them on the practice. Do you want to see my projects or
-              contact me? Scroll down and don't forget to leave your details. By the way, You can always find me in
-              Instagram or Github.</p>
-            <div class="about__skills-inner">
-              <div class="about__skills-item">
-                <div class="badge badge--photo">
-                  <img class="badge__photo" src="images/dist/icons/development.svg" alt="development">
-                </div>
-                <div class="about__skills-block">
-                  <div class="about__skills-name">web development</div>
-                  <p class="about__skills-text">I have been learning and practicing web development skills for like
-                    almost two years.</p>
-                </div>
-              </div>
-              <div class="about__skills-item">
-                <div class="badge badge--photo">
-                  <img class="badge__photo" src="images/dist/icons/development.svg" alt="development">
-                </div>
-                <div class="about__skills-block">
-                  <div class="about__skills-name">web development</div>
-                  <p class="about__skills-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-              <div class="about__skills-item">
-                <div class="badge badge--photo">
-                  <img class="badge__photo" src="images/dist/icons/development.svg" alt="development">
-                </div>
-                <div class="about__skills-block">
-                  <div class="about__skills-name">web development</div>
-                  <p class="about__skills-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </section>
-    <section class="experience" id="experience">
-      <div class="container">
-        <div class="badge badge--centered">Experience</div>
-        <h2 class="title title--underline title--centered">My background</h2>
-        <div class="experience__inner">
-          <div class="experience__item">
-            <h3 class="experience__title">Education</h3>
-            <ul class="experience__map">
-              <li class="experience__map-item">
-                <div class="experience__map-item__inner">
-                  <div class="badge badge--photo">
-                    <img class="badge__photo" src="images/dist/icons/university.svg" alt="study">
-                  </div>
-                  <div class="experience__map-info__inner">
-                    <div class="experience__map-info-header">Lviv Polytechnic National University</div>
-                    <div class="experience__map-info-text">Bachelor degree | Lviv (2020 - 2024)</div>
-                  </div>
-                </div>
-                <p class="experience__map-text">I'm studying on Computer Engineering faculty. However, web development
-                  is my true love</p>
-              </li>
-              <li class="experience__map-item">
-                <div class="experience__map-item__inner">
-                  <div class="badge badge--photo">
-                    <img class="badge__photo" src="images/dist/icons/courses.svg" alt="udemy courses">
-                  </div>
-                  <div class="experience__map-info__inner">
-                    <div class="experience__map-info-header">Udemy</div>
-                    <div class="experience__map-info-text">Web development courses</div>
-                  </div>
-                </div>
-                <p class="experience__map-text">Udemy is my favorite studying platform</p>
-              </li>
-            </ul>
-          </div>
-          <div class="experience__item">
-            <h3 class="experience__title">Education</h3>
-            <ul class="experience__map">
-              <li class="experience__map-item">
-                <div class="experience__map-item__inner">
-                  <div class="badge badge--photo">
-                    <img class="badge__photo" src="images/dist/icons/university.svg" alt="study">
-                  </div>
-                  <div class="experience__map-info__inner">
-                    <div class="experience__map-info-header">Lviv Polytechnic National University</div>
-                    <div class="experience__map-info-text">Bachelor degree | Lviv (2020 - 2024)</div>
-                  </div>
-                </div>
-                <p class="experience__map-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
-                  adipiscing
-                  elit, sed do eiusmo. </p>
-              </li>
-              <li class="experience__map-item">
-                <div class="experience__map-item__inner">
-                  <div class="badge badge--photo">
-                    <img class="badge__photo" src="images/dist/icons/courses.svg" alt="udemy courses">
-                  </div>
-                  <div class="experience__map-info__inner">
-                    <div class="experience__map-info-header">Udemy</div>
-                    <div class="experience__map-info-text">Web development courses</div>
-                  </div>
-                </div>
-                <p class="experience__map-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                  eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur
-                  adipiscing
-                  elit, sed do eiusmo. </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="skills" id="skills">
-      <div class="container">
-        <div class="badge badge--text badge--centered">Skills</div>
-        <h2 class="title title--underline title--centered">Stack of my technologies</h2>
-        <div class="skills__inner">
-          <div class="skills__item">
-            <div class="skills__img-inner">
-              <img class="skills__img" src="images/dist/icons/html.svg" alt="html">
-            </div>
-            <div class="skills__technology">HTML5</div>
-            <p class="skills__text">Hype Text Markup Language - it's like the skeleton of your website or application.
-              HTML5 version will even help me to create more accessible and SEO-optimized product.
-            </p>
-          </div>
-          <div class="skills__item">
-            <div class="skills__img-inner">
-              <img class="skills__img" src="images/dist/icons/css.svg" alt="css">
-            </div>
-            <div class="skills__technology">CSS3</div>
-            <p class="skills__text">Cascading Style Sheets - makes look your site modern and good-looking</p>
-          </div>
-          <div class="skills__item">
-            <div class="skills__img-inner">
-              <img class="skills__img" src="images/dist/icons/sass.svg" alt="sass">
-            </div>
-            <div class="skills__technology">Sass</div>
-            <p class="skills__text">CSS preprocessor that allows me to write css more quickly/efficiently. Personally
-              i use SCSS syntax</p>
-          </div>
-          <div class="skills__item">
-            <div class="skills__img-inner">
-              <img class="skills__img" src="images/dist/icons/bootstrap.svg" alt="bootstrap">
-            </div>
-            <div class="skills__technology">Bootstrap</div>
-            <p class="skills__text">It's a framework that is designed to create websites and web applications quickly
-              and mobile-first
-            </p>
-          </div>
-          <div class="skills__item">
-            <div class="skills__img-inner">
-              <img class="skills__img" src="images/dist/icons/javascript.svg" alt="javascript">
-            </div>
-            <div class="skills__technology">Javascript</div>
-            <p class="skills__text">Programming language that allows me to create such great features as sliders,
-              sidenavs, tabs etc.</p>
-          </div>
-          <div class="skills__item">
-            <div class="skills__img-inner">
-              <img class="skills__img" src="images/dist/icons/jquery.svg" alt="jquery">
-            </div>
-            <div class="skills__technology">Jquery</div>
-            <p class="skills__text">The Jquery library will speed up development. I will not integrate it into the
-              project without the need, but the skill of working with it is present</p>
-          </div>
-          <div class="skills__item">
-            <div class="skills__img-inner">
-              <img class="skills__img" src="images/dist/icons/react.svg" alt="react">
-            </div>
-            <div class="skills__technology">React</div>
-            <p class="skills__text">This library allows me to create web applications. I can create the most
-              interactive product specifically for your goals</p>
-          </div>
-          <div class="skills__item">
-            <div class="skills__img-inner">
-              <img class="skills__img" src="images/dist/icons/mongodb.svg" alt="mongodb">
-            </div>
-            <div class="skills__technology">Node.js</div>
-            <p class="skills__text">This platform allows me to create a backend for your product - "brains"</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="works" id="portfolio">
-      <div class="container">
-        <div class="badge badge--text badge--centered">Portfolio</div>
-        <h2 class="title title--underline title--centered">My works</h2>
-        <div class="works__inner">
-          <a class="works__link" href="#"><img class="works__img" src="images/dist/content/preview.jpg" alt="todo"
-              loading="lazy"></a>
-          <a class="works__link" href="#"><img class="works__img" src="images/dist/content/preview.jpg" alt="todo"
-              loading="lazy"></a>
-          <a class="works__link" href="#"><img class="works__img" src="images/dist/content/preview.jpg" alt="todo"
-              loading="lazy"></a>
-          <a class="works__link works__link--vertical" href="#"><img class="works__img"
-              src="images/dist/content/preview.jpg" alt="todo" loading="lazy"></a>
-          <a class="works__link" href="#"><img class="works__img" src="images/dist/content/preview.jpg" alt="todo"
-              loading="lazy"></a>
-          <a class="works__link works__link--wider" href="#"><img class="works__img"
-              src="images/dist/content/preview.jpg" alt="todo" loading="lazy"></a>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer class="footer" id="contacts">
-    <div class="container">
-      <div class="footer__inner">
-        <img class="footer__img person-img" src="images/dist/content/person.jpg" alt="person">
-        <div class="footer__contacts">
-          <div class="footer__badge badge badge--text">Contacts</div>
-          <h2 class="title title--underline">Get in touch</h2>
-          <p class="footer__text">In any way convenient for you:</p>
-          <ul class="socials">
-            <li class="socials__item">
-              <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/github.svg"
-                  alt="github"></a>
+    </aside>
+    <div class="sidenav">
+      <div class="sidenav__overlay"></div>
+      <div class="sidenav__inner">
+        <button
+          class="close-sidenav"
+          type="button"
+          aria-label="close sidenav menu"
+        >
+          &times;
+        </button>
+        <nav class="menu">
+          <ul class="menu__inner">
+            <li class="menu__item">
+              <a href="#about" class="menu__link">About me</a>
             </li>
-            <li class="socials__item">
-              <a class="socials__link" href="#"><img class="socials__img" src="images/dist/icons/instagram.svg"
-                  alt="instagram"></a>
+            <li class="menu__item">
+              <a href="#experience" class="menu__link">My experience</a>
+            </li>
+            <li class="menu__item">
+              <a href="#skills" class="menu__link">My skills</a>
+            </li>
+            <li class="menu__item">
+              <a href="#portfolio" class="menu__link">My works</a>
+            </li>
+            <li class="menu__item">
+              <a href="#contacts" class="menu__link">Contacts</a>
             </li>
           </ul>
-          <p class="footer__text">Or leave your details and I will respond</p>
-          <form>
-            <div class="form__inputs-inner">
-              <label class="form__label">
-                <input class="form__input" type="text" name="name" data-focus required>
-                <span class="form__legend">Name</span>
-              </label>
-              <label class="form__label">
-                <input class="form__input" type="email" name="email" data-focus required>
-                <span class="form__legend">Email</span>
-              </label>
-            </div>
-            <div class="form__textarea-container">
-              <textarea class="form__textarea" name="message" data-focus></textarea>
-              <span class="form__legend">Message</span>
-            </div>
-            <div class="form__submit">
-              <label class="form__label">
-                <input class="form__checkbox" type="checkbox">
-                <span class="form__custom-checkbox"></span>
-                <span class="form__privacy">A agree with the <a class="footer__privacy" href="#">privacy
-                    policy</a></span>
-              </label>
-              <button class="btn btn--btn" type="submit">send message</button>
-            </div>
-          </form>
-        </div>
+          <ul class="socials">
+            <li class="socials__item">
+              <a
+                class="socials__link"
+                href="https://github.com/TolyaDeveloper"
+                rel="noopener noreferrer"
+                target="_blank"
+                ><img
+                  class="socials__img"
+                  src="images/dist/icons/github.svg"
+                  alt="github"
+              /></a>
+            </li>
+            <li class="socials__item">
+              <a
+                class="socials__link"
+                href="https://www.instagram.com/gargashanatolii"
+                rel="noopener noreferrer"
+                target="_blank"
+                ><img
+                  class="socials__img"
+                  src="images/dist/icons/instagram.svg"
+                  alt="instagram"
+              /></a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
-  </footer>
-  <button class="scroll-top btn btn--btn" type="button">Top</button>
-  <script src="js/bundle.min.js"></script>
-</body>
-
+    <main class="main">
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__inner">
+            <img
+              class="about__img person-img"
+              src="images/dist/content/person.jpg"
+              alt="person"
+            />
+            <div class="about__info">
+              <div class="about__badge badge badge--text">About me</div>
+              <h2 class="title title--underline">My name is Anatolii</h2>
+              <p class="about__text">
+                Hi. I'm glad to see you on my portfolio website. I really like
+                to come up with some new ideas for new projects. Studying,
+                actually, is a must form me. It always gives me a thrill to face
+                with some new technologies and immediately try them on the
+                practice. Do you want to see my projects or contact me? Scroll
+                down and don't forget to leave your details. By the way, You can
+                always find me in Instagram or Github.
+              </p>
+              <div class="about__skills-inner">
+                <div class="about__skills-item">
+                  <div class="badge badge--photo">
+                    <img
+                      class="badge__photo"
+                      src="images/dist/icons/development.svg"
+                      alt="development"
+                    />
+                  </div>
+                  <div class="about__skills-block">
+                    <div class="about__skills-name">web development</div>
+                    <p class="about__skills-text">
+                      I have been learning and practicing web development skills
+                      for like almost two years.
+                    </p>
+                  </div>
+                </div>
+                <div class="about__skills-item">
+                  <div class="badge badge--photo">
+                    <img
+                      class="badge__photo"
+                      src="images/dist/icons/development.svg"
+                      alt="development"
+                    />
+                  </div>
+                  <div class="about__skills-block">
+                    <div class="about__skills-name">web development</div>
+                    <p class="about__skills-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+                <div class="about__skills-item">
+                  <div class="badge badge--photo">
+                    <img
+                      class="badge__photo"
+                      src="images/dist/icons/development.svg"
+                      alt="development"
+                    />
+                  </div>
+                  <div class="about__skills-block">
+                    <div class="about__skills-name">web development</div>
+                    <p class="about__skills-text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experience" id="experience">
+        <div class="container">
+          <div class="badge badge--centered">Experience</div>
+          <h2 class="title title--underline title--centered">My background</h2>
+          <div class="experience__inner">
+            <div class="experience__item">
+              <h3 class="experience__title">Education</h3>
+              <ul class="experience__map">
+                <li class="experience__map-item">
+                  <div class="experience__map-item__inner">
+                    <div class="badge badge--photo">
+                      <img
+                        class="badge__photo"
+                        src="images/dist/icons/university.svg"
+                        alt="study"
+                      />
+                    </div>
+                    <div class="experience__map-info__inner">
+                      <div class="experience__map-info-header">
+                        Lviv Polytechnic National University
+                      </div>
+                      <div class="experience__map-info-text">
+                        Bachelor degree | Lviv (2020 - 2024)
+                      </div>
+                    </div>
+                  </div>
+                  <p class="experience__map-text">
+                    I'm studying on Computer Engineering faculty. However, web
+                    development is my true love
+                  </p>
+                </li>
+                <li class="experience__map-item">
+                  <div class="experience__map-item__inner">
+                    <div class="badge badge--photo">
+                      <img
+                        class="badge__photo"
+                        src="images/dist/icons/courses.svg"
+                        alt="udemy courses"
+                      />
+                    </div>
+                    <div class="experience__map-info__inner">
+                      <div class="experience__map-info-header">Udemy</div>
+                      <div class="experience__map-info-text">
+                        Web development courses
+                      </div>
+                    </div>
+                  </div>
+                  <p class="experience__map-text">
+                    Udemy is my favorite studying platform
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="experience__item">
+              <h3 class="experience__title">Education</h3>
+              <ul class="experience__map">
+                <li class="experience__map-item">
+                  <div class="experience__map-item__inner">
+                    <div class="badge badge--photo">
+                      <img
+                        class="badge__photo"
+                        src="images/dist/icons/university.svg"
+                        alt="study"
+                      />
+                    </div>
+                    <div class="experience__map-info__inner">
+                      <div class="experience__map-info-header">
+                        Lviv Polytechnic National University
+                      </div>
+                      <div class="experience__map-info-text">
+                        Bachelor degree | Lviv (2020 - 2024)
+                      </div>
+                    </div>
+                  </div>
+                  <p class="experience__map-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmo.
+                  </p>
+                </li>
+                <li class="experience__map-item">
+                  <div class="experience__map-item__inner">
+                    <div class="badge badge--photo">
+                      <img
+                        class="badge__photo"
+                        src="images/dist/icons/courses.svg"
+                        alt="udemy courses"
+                      />
+                    </div>
+                    <div class="experience__map-info__inner">
+                      <div class="experience__map-info-header">Udemy</div>
+                      <div class="experience__map-info-text">
+                        Web development courses
+                      </div>
+                    </div>
+                  </div>
+                  <p class="experience__map-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmo.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="badge badge--text badge--centered">Skills</div>
+          <h2 class="title title--underline title--centered">
+            Stack of my technologies
+          </h2>
+          <div class="skills__inner">
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img
+                  class="skills__img"
+                  src="images/dist/icons/html.svg"
+                  alt="html"
+                />
+              </div>
+              <div class="skills__technology">HTML5</div>
+              <p class="skills__text">
+                Hype Text Markup Language - it's like the skeleton of your
+                website or application. HTML5 version will even help me to
+                create more accessible and SEO-optimized product.
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img
+                  class="skills__img"
+                  src="images/dist/icons/css.svg"
+                  alt="css"
+                />
+              </div>
+              <div class="skills__technology">CSS3</div>
+              <p class="skills__text">
+                Cascading Style Sheets - makes look your site modern and
+                good-looking
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img
+                  class="skills__img"
+                  src="images/dist/icons/sass.svg"
+                  alt="sass"
+                />
+              </div>
+              <div class="skills__technology">Sass</div>
+              <p class="skills__text">
+                CSS preprocessor that allows me to write css more
+                quickly/efficiently. Personally i use SCSS syntax
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img
+                  class="skills__img"
+                  src="images/dist/icons/bootstrap.svg"
+                  alt="bootstrap"
+                />
+              </div>
+              <div class="skills__technology">Bootstrap</div>
+              <p class="skills__text">
+                It's a framework that is designed to create websites and web
+                applications quickly and mobile-first
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img
+                  class="skills__img"
+                  src="images/dist/icons/javascript.svg"
+                  alt="javascript"
+                />
+              </div>
+              <div class="skills__technology">Javascript</div>
+              <p class="skills__text">
+                Programming language that allows me to create such great
+                features as sliders, sidenavs, tabs etc.
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img
+                  class="skills__img"
+                  src="images/dist/icons/jquery.svg"
+                  alt="jquery"
+                />
+              </div>
+              <div class="skills__technology">Jquery</div>
+              <p class="skills__text">
+                The Jquery library will speed up development. I will not
+                integrate it into the project without the need, but the skill of
+                working with it is present
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img
+                  class="skills__img"
+                  src="images/dist/icons/react.svg"
+                  alt="react"
+                />
+              </div>
+              <div class="skills__technology">React</div>
+              <p class="skills__text">
+                This library allows me to create web applications. I can create
+                the most interactive product specifically for your goals
+              </p>
+            </div>
+            <div class="skills__item">
+              <div class="skills__img-inner">
+                <img
+                  class="skills__img"
+                  src="images/dist/icons/mongodb.svg"
+                  alt="mongodb"
+                />
+              </div>
+              <div class="skills__technology">Node.js</div>
+              <p class="skills__text">
+                This platform allows me to create a backend for your product -
+                "brains"
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works" id="portfolio">
+        <div class="container">
+          <div class="badge badge--text badge--centered">Portfolio</div>
+          <h2 class="title title--underline title--centered">My works</h2>
+          <div class="works__inner">
+            <a class="works__link" href="#"
+              ><img
+                class="works__img"
+                src="images/dist/content/preview.jpg"
+                alt="todo"
+                loading="lazy"
+            /></a>
+            <a class="works__link" href="#"
+              ><img
+                class="works__img"
+                src="images/dist/content/preview.jpg"
+                alt="todo"
+                loading="lazy"
+            /></a>
+            <a class="works__link" href="#"
+              ><img
+                class="works__img"
+                src="images/dist/content/preview.jpg"
+                alt="todo"
+                loading="lazy"
+            /></a>
+            <a class="works__link works__link--vertical" href="#"
+              ><img
+                class="works__img"
+                src="images/dist/content/preview.jpg"
+                alt="todo"
+                loading="lazy"
+            /></a>
+            <a class="works__link" href="#"
+              ><img
+                class="works__img"
+                src="images/dist/content/preview.jpg"
+                alt="todo"
+                loading="lazy"
+            /></a>
+            <a class="works__link works__link--wider" href="#"
+              ><img
+                class="works__img"
+                src="images/dist/content/preview.jpg"
+                alt="todo"
+                loading="lazy"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <div class="footer__inner">
+          <img
+            class="footer__img person-img"
+            src="images/dist/content/person.jpg"
+            alt="person"
+          />
+          <div class="footer__contacts">
+            <div class="footer__badge badge badge--text">Contacts</div>
+            <h2 class="title title--underline">Get in touch</h2>
+            <p class="footer__text">In any way convenient for you:</p>
+            <ul class="socials">
+              <li class="socials__item">
+                <a
+                  class="socials__link"
+                  href="https://github.com/TolyaDeveloper"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><img
+                    class="socials__img"
+                    src="images/dist/icons/github.svg"
+                    alt="github"
+                /></a>
+              </li>
+              <li class="socials__item">
+                <a
+                  class="socials__link"
+                  href="https://www.instagram.com/gargashanatolii"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  ><img
+                    class="socials__img"
+                    src="images/dist/icons/instagram.svg"
+                    alt="instagram"
+                /></a>
+              </li>
+            </ul>
+            <p class="footer__text">Or leave your details and I will respond</p>
+            <form>
+              <div class="form__inputs-inner">
+                <label class="form__label">
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="name"
+                    data-focus
+                    required
+                  />
+                  <span class="form__legend">Name</span>
+                </label>
+                <label class="form__label">
+                  <input
+                    class="form__input"
+                    type="email"
+                    name="email"
+                    data-focus
+                    required
+                  />
+                  <span class="form__legend">Email</span>
+                </label>
+              </div>
+              <div class="form__textarea-container">
+                <textarea
+                  class="form__textarea"
+                  name="message"
+                  data-focus
+                ></textarea>
+                <span class="form__legend">Message</span>
+              </div>
+              <div class="form__submit">
+                <label class="form__label">
+                  <input class="form__checkbox" type="checkbox" />
+                  <span class="form__custom-checkbox"></span>
+                  <span class="form__privacy"
+                    >A agree with the
+                    <a class="footer__privacy" href="./policy.html"
+                      >privacy policy</a
+                    ></span
+                  >
+                </label>
+                <button class="btn btn--btn" type="submit">send message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <button class="scroll-top btn btn--btn" type="button">Top</button>
+    <script src="js/bundle.min.js"></script>
+  </body>
 </html>
