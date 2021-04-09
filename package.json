@@ -31,6 +31,7 @@
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "focus-visible": "^5.2.0",
+    "glightbox": "^3.0.7",
     "normalize.css": "^8.0.1"
   }
 }

@@ -5,3 +5,4 @@ import './modules/scroll-top';
 import './modules/preloader';
 import './modules/anchors';
 import './modules/aos';
+import './modules/glightbox';
