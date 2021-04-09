@@ -29,6 +29,7 @@
     "webpack-stream": "^6.1.1"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "focus-visible": "^5.2.0",
     "normalize.css": "^8.0.1"
   }

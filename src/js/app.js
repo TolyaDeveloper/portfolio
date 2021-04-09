@@ -4,3 +4,4 @@ import './modules/sidenav';
 import './modules/scroll-top';
 import './modules/preloader';
 import './modules/anchors';
+import './modules/aos';
