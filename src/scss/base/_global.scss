@@ -13,6 +13,7 @@ body {
   color: var(--clr-text-primary);
   font-size: var(--fz-primary);
   line-height: var(--line-height);
+  cursor: url('../images/dist/icons/cursor.png'), auto;
 
   @include font('Rubik', 400);
 }
@@ -53,4 +54,22 @@ p {
 
 section {
   overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(#f05454, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--accent);
+  border-radius: 10px;
 }
