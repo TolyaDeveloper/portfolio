@@ -79,4 +79,9 @@
     align-items: center;
     margin-top: 30px;
   }
+  &__success {
+    position: absolute;
+    display: none;
+    margin-top: 5px;
+  }
 }

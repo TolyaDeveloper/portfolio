@@ -23,7 +23,7 @@ function scripts() {
   return src('src/js/app.js')
     .pipe(
       webpack({
-        mode: 'development',
+        mode: 'production',
         module: {
           rules: [
             {
@@ -57,16 +57,18 @@ function scripts() {
 }
 
 function styles() {
-  return src('src/scss/app.scss')
-    .pipe(sourcemaps.init())
-    .pipe(scss({ outputStyle: 'compressed' }))
-    .pipe(sourcemaps.write())
-    .pipe(
-      autoprefixer({ overrideBrowserslist: ['last 10 versions'], grid: true })
-    )
-    .pipe(rename('bundle.min.css'))
-    .pipe(dest('src/css'))
-    .pipe(browserSync.stream());
+  return (
+    src('src/scss/app.scss')
+      // .pipe(sourcemaps.init())
+      .pipe(scss({ outputStyle: 'compressed' }))
+      // .pipe(sourcemaps.write())
+      .pipe(
+        autoprefixer({ overrideBrowserslist: ['last 10 versions'], grid: true })
+      )
+      .pipe(rename('bundle.min.css'))
+      .pipe(dest('src/css'))
+      .pipe(browserSync.stream())
+  );
 }
 
 function images() {
